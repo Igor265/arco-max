@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="light" lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Arco Max Odontologia | Especialistas em Sorrisos</title>
+
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description" content="Na Arco Max Odontologia, oferecemos cuidado especializado e tecnologia de ponta para transformar sua saúde bucal. Agende sua avaliação!"/>
+  <meta property="og:title" content="Arco Max Odontologia | Especialistas em Sorrisos"/>
+  <meta property="og:description" content="Na Arco Max Odontologia, oferecemos cuidado especializado e tecnologia de ponta para transformar sua saúde bucal. Agende sua avaliação!"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.arcomax.com.br/"/>
+  <meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuBYJ3HiZDPzuLPoMtXbedUy9wrS4wi5i5GWcV7hed-SNVkkvHZbV8pMGv3ucacPeRDT2Q2lqa89-LS8fMYT5bbVQKjykW67R3b-hPuijYb3kLFvJyfJoNfy4SCda_sq9HeRAhka8-pcPDcT3KGCp-4WlpVtOHt_o760i0IgdiNA_UZZkUoW6LXwNYtamsiKq5Mu4aHbdlA27ay6gjuWDWqKL2DWbCFZ1ySm4weIDCE03OfKrVYJm0Gba3ndQo5L7UFTi62wnkTJpzo"/>
+  <meta property="og:site_name" content="Arco Max Odontologia"/>
+
+  <!-- Google Fonts: Manrope & Work Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Work+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "inverse-primary": "#7fd0ff",
+            "surface": "#f7f9ff",
+            "secondary-fixed": "#ffdf9e",
+            "surface-container-lowest": "#ffffff",
+            "background": "#f7f9ff",
+            "secondary-fixed-dim": "#e6c275",
+            "surface-container": "#e3efff",
+            "surface-tint": "#00658c",
+            "outline-variant": "#bfc8cf",
+            "on-surface-variant": "#3f484e",
+            "tertiary": "#825100",
+            "on-error": "#ffffff",
+            "on-primary-fixed-variant": "#004c6a",
+            "surface-dim": "#c9dcf3",
+            "surface-bright": "#f7f9ff",
+            "outline": "#6f787f",
+            "on-secondary-fixed-variant": "#5b4300",
+            "on-error-container": "#93000a",
+            "surface-container-high": "#d9eaff",
+            "on-background": "#091d2e",
+            "error": "#ba1a1a",
+            "on-tertiary": "#ffffff",
+            "surface-container-low": "#edf4ff",
+            "on-primary-fixed": "#001e2d",
+            "on-primary-container": "#fcfcff",
+            "primary-fixed-dim": "#7fd0ff",
+            "error-container": "#ffdad6",
+            "surface-variant": "#d1e4fb",
+            "surface-container-highest": "#d1e4fb",
+            "on-tertiary-container": "#fffbff",
+            "on-secondary-fixed": "#261a00",
+            "inverse-on-surface": "#e8f2ff",
+            "on-primary": "#ffffff",
+            "on-surface": "#091d2e",
+            "tertiary-fixed": "#ffddb8",
+            "tertiary-container": "#a36809",
+            "primary-fixed": "#c5e7ff",
+            "tertiary-fixed-dim": "#ffb95f",
+            "on-secondary": "#ffffff",
+            "on-tertiary-fixed-variant": "#653e00",
+            "primary-container": "#067dab",
+            "on-tertiary-fixed": "#2a1700",
+            "on-secondary-container": "#785d19",
+            "inverse-surface": "#203243",
+            "secondary": "#765a17",
+            "primary": "#006388",
+            "secondary-container": "#fed888"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "sm": "12px",
+            "xl": "80px",
+            "md": "24px",
+            "base": "8px",
+            "lg": "48px",
+            "container-max": "1200px",
+            "gutter": "24px",
+            "xs": "4px"
+          },
+          "fontFamily": {
+            "body-lg": ["Work Sans"],
+            "display-lg": ["Manrope"],
+            "label-bold": ["Work Sans"],
+            "headline-md": ["Manrope"],
+            "body-md": ["Work Sans"],
+            "headline-sm": ["Manrope"]
+          },
+          "fontSize": {
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "display-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "700"}],
+            "label-bold": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+            "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+            "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .hero-gradient {
+      background: linear-gradient(to right, rgba(247, 249, 255, 0.95) 30%, rgba(247, 249, 255, 0.4) 100%);
+    }
+  </style>
+</head>
+<body class="bg-background font-body-md text-on-background selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
+  <!-- TopAppBar -->
+  <nav class="fixed top-0 w-full z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-100 dark:border-slate-800 shadow-sm font-['Manrope'] antialiased">
+    <div class="flex justify-between items-center h-20 px-8 max-w-[1200px] mx-auto">
+      <div class="text-2xl font-black tracking-tight text-[#3A98C7]">
+        Arco Max Odontologia
+      </div>
+      <div class="hidden md:flex items-center gap-8">
+        <a class="text-[#3A98C7] font-bold border-b-2 border-[#3A98C7] pb-1 transform transition-transform active:scale-95" href="#">Início</a>
+        <a class="text-slate-600 dark:text-slate-300 font-medium hover:text-[#3A98C7] hover:opacity-80 transition-all duration-300 transform transition-transform active:scale-95" href="#servicos">Serviços</a>
+        <a class="text-slate-600 dark:text-slate-300 font-medium hover:text-[#3A98C7] hover:opacity-80 transition-all duration-300 transform transition-transform active:scale-95" href="#localizacao">Localização</a>
+        <a class="text-slate-600 dark:text-slate-300 font-medium hover:text-[#3A98C7] hover:opacity-80 transition-all duration-300 transform transition-transform active:scale-95" href="#contato">Contato</a>
+      </div>
+      <button class="bg-[#006388] text-white px-6 py-2.5 rounded-lg font-label-bold text-label-bold hover:bg-[#004c6a] transition-all transform active:scale-95">
+        Agendar Consulta
+      </button>
+    </div>
+  </nav>
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative h-[600px] flex items-center overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img class="w-full h-full object-cover" alt="Modern clean dental office with white furniture, professional equipment, and a large window with soft daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYJ3HiZDPzuLPoMtXbedUy9wrS4wi5i5GWcV7hed-SNVkkvHZbV8pMGv3ucacPeRDT2Q2lqa89-LS8fMYT5bbVQKjykW67R3b-hPuijYb3kLFvJyfJoNfy4SCda_sq9HeRAhka8-pcPDcT3KGCp-4WlpVtOHt_o760i0IgdiNA_UZZkUoW6LXwNYtamsiKq5Mu4aHbdlA27ay6gjuWDWqKL2DWbCFZ1ySm4weIDCE03OfKrVYJm0Gba3ndQo5L7UFTi62wnkTJpzo"/>
+        <div class="absolute inset-0 hero-gradient"></div>
+      </div>
+      <div class="container mx-auto px-8 max-w-[1200px] relative z-10">
+        <div class="max-w-2xl">
+          <h1 class="font-display-lg text-display-lg text-on-background mb-6">
+            A gente sabe o <span class="text-primary">VALOR</span> que existe em um <span class="text-primary">SORRISO!</span>
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+            Cuidado especializado e tecnologia de ponta para transformar sua saúde bucal e elevar sua autoestima.
+          </p>
+          <a class="inline-flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-xl font-headline-sm text-headline-sm hover:shadow-lg transition-all transform hover:-translate-y-1 active:scale-95" href="https://wa.me/your-number">
+            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
+            Agendar Consulta via WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Services Grid (Bento Style) -->
+    <section class="py-xl bg-surface" id="servicos">
+      <div class="max-w-[1200px] mx-auto px-8">
+        <div class="text-center mb-16">
+          <h2 class="font-display-lg text-headline-md text-on-background mb-4">Nossos Serviços</h2>
+          <div class="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Canal (Large) -->
+          <div class="md:col-span-2 md:row-span-2 bg-white p-8 rounded-2xl border border-outline-variant hover:shadow-xl transition-all group">
+            <span class="material-symbols-outlined text-primary text-5xl mb-6">medical_services</span>
+            <h3 class="font-headline-sm text-headline-sm mb-3">Tratamento de Canal</h3>
+            <p class="font-body-md text-on-surface-variant">Procedimento preciso e indolor para salvar seu dente natural e eliminar focos de infecção com o máximo de conforto.</p>
+            <div class="mt-8 flex items-center text-primary font-label-bold">
+              Saiba mais <span class="material-symbols-outlined ml-2 group-hover:translate-x-2 transition-transform">arrow_forward</span>
+            </div>
+          </div>
+          <!-- Implantes -->
+          <div class="bg-white p-6 rounded-2xl border border-outline-variant hover:shadow-lg transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-4xl mb-4">add_moderator</span>
+            <h3 class="font-headline-sm text-[20px] mb-2">Implantes</h3>
+            <p class="font-body-md text-sm text-on-surface-variant">Recupere a funcionalidade e estética dental.</p>
+          </div>
+          <!-- Ortodontia -->
+          <div class="bg-white p-6 rounded-2xl border border-outline-variant hover:shadow-lg transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-4xl mb-4">grid_view</span>
+            <h3 class="font-headline-sm text-[20px] mb-2">Ortodontia</h3>
+            <p class="font-body-md text-sm text-on-surface-variant">Aparelhos modernos para o alinhamento perfeito.</p>
+          </div>
+          <!-- Clareamentos (Large) -->
+          <div class="md:col-span-2 bg-white p-8 rounded-2xl border border-outline-variant flex items-center gap-6 hover:shadow-xl transition-all">
+            <div class="shrink-0">
+              <span class="material-symbols-outlined text-primary text-5xl">auto_awesome</span>
+            </div>
+            <div>
+              <h3 class="font-headline-sm text-headline-sm mb-2">Clareamentos</h3>
+              <p class="font-body-md text-on-surface-variant">Tecnologia avançada para um sorriso mais branco e radiante em poucas sessões.</p>
+            </div>
+          </div>
+          <!-- Small cards grid -->
+          <div class="bg-white p-6 rounded-xl border border-outline-variant hover:shadow-md transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-3xl mb-2">cleaning_services</span>
+            <h4 class="font-headline-sm text-[18px]">Limpezas</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-outline-variant hover:shadow-md transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-3xl mb-2">sanitizer</span>
+            <h4 class="font-headline-sm text-[18px]">Restaurações</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-outline-variant hover:shadow-md transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-3xl mb-2">face</span>
+            <h4 class="font-headline-sm text-[18px]">Botox</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-outline-variant hover:shadow-md transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-3xl mb-2">clinical_notes</span>
+            <h4 class="font-headline-sm text-[18px]">Extrações</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-outline-variant hover:shadow-md transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-3xl mb-2">diamond</span>
+            <h4 class="font-headline-sm text-[18px]">Facetas</h4>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-outline-variant hover:shadow-md transition-all text-center">
+            <span class="material-symbols-outlined text-secondary text-3xl mb-2">psychiatry</span>
+            <h4 class="font-headline-sm text-[18px]">Próteses</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trust Section -->
+    <section class="py-xl bg-white">
+      <div class="max-w-[1200px] mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div class="relative">
+          <div class="absolute -top-4 -left-4 w-24 h-24 bg-primary-fixed-dim rounded-full opacity-30 -z-10"></div>
+          <img class="rounded-3xl shadow-2xl border-4 border-white" alt="Professional dentist smiling in a modern laboratory setting wearing white clinical coat and professional stethoscope" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBufCl0FcTiymaHcfUl1G-tOq0XBYMvVwd5vcU4QTv4TJCYh7Ef_mK3XEK-Bauwp8zSf8jWTcQxoYoxdCnfnnYh3WPe_to3IVHvxop9a_UKdPdNXBTSfwLoIebMS8o6OPl1h1mJVgWJ7Rxpel_bPmmkesb6lWqS9b5jhlfCClwD80mDUdUTy_et8nTY9XwKIJt1k_yQnqwHb7hwgbvJM6lqgStdtWO8snPefWzYKjyvzyXa9xPhhjONubTq4ufUGMZbuGbxX6ltMyY"/>
+        </div>
+        <div>
+          <span class="font-label-bold text-primary uppercase tracking-widest mb-4 block">Excelência em Odontologia</span>
+          <h2 class="font-display-lg text-headline-md mb-6">Cuidado que faz a diferença</h2>
+          <p class="font-body-lg text-on-surface-variant mb-6">
+            Na Arco Max Odontologia, combinamos anos de experiência clínica com as tecnologias mais recentes do mercado. Nosso compromisso é oferecer um atendimento humanizado, priorizando o seu bem-estar em cada etapa do tratamento.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-center gap-3 font-body-md text-on-background">
+              <span class="material-symbols-outlined text-[#3A98C7]">check_circle</span>
+              Equipe altamente qualificada e experiente
+            </li>
+            <li class="flex items-center gap-3 font-body-md text-on-background">
+              <span class="material-symbols-outlined text-[#3A98C7]">check_circle</span>
+              Ambiente estéril e acolhedor
+            </li>
+            <li class="flex items-center gap-3 font-body-md text-on-background">
+              <span class="material-symbols-outlined text-[#3A98C7]">check_circle</span>
+              Equipamentos de última geração
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Location & Contact -->
+    <section class="py-xl bg-surface-container-low" id="localizacao">
+      <div class="max-w-[1200px] mx-auto px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="md:col-span-1 space-y-8">
+            <div>
+              <h2 class="font-display-lg text-headline-sm mb-6">Onde estamos</h2>
+              <div class="flex gap-4 items-start">
+                <span class="material-symbols-outlined text-primary mt-1">location_on</span>
+                <div>
+                  <p class="font-headline-sm text-body-lg mb-1">Endereço</p>
+                  <address class="font-body-md text-on-surface-variant not-italic">
+                    Rua Padre Pedro Pinto, 6.720<br/>
+                    Venda Nova - Belo Horizonte<br/>
+                    Minas Gerais
+                  </address>
+                </div>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <span class="material-symbols-outlined text-primary mt-1">call</span>
+              <div>
+                <p class="font-headline-sm text-body-lg mb-1">Contato</p>
+                <p class="font-body-md text-on-surface-variant">
+                  <a href="tel:+553133333333" class="hover:text-primary transition-colors">(31) 3333-3333</a>
+                </p>
+                <p class="font-body-md text-on-surface-variant">
+                  <a href="mailto:contato@arcomax.com.br" class="hover:text-primary transition-colors">contato@arcomax.com.br</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Final CTA -->
+    <section class="py-xl bg-primary-container text-white">
+      <div class="max-w-[1200px] mx-auto px-8 text-center">
+        <h2 class="font-display-lg text-display-lg mb-6">Pronto para transformar seu sorriso?</h2>
+        <p class="font-body-lg mb-10 opacity-90 max-w-2xl mx-auto">
+          Não deixe para depois a saúde do seu sorriso. Entre em contato conosco agora e agende sua avaliação inicial.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-white text-primary px-10 py-4 rounded-xl font-headline-sm hover:bg-surface-container transition-all shadow-xl active:scale-95">
+            Agendar via WhatsApp
+          </button>
+          <button class="border-2 border-white/40 hover:border-white text-white px-10 py-4 rounded-xl font-headline-sm transition-all active:scale-95">
+            Ver Outros Serviços
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="w-full py-12 bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 font-['Manrope'] text-sm">
+    <div class="max-w-[1200px] mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
+      <div>
+        <div class="text-lg font-bold text-[#3A98C7] mb-2">Arco Max Odontologia</div>
+        <p class="text-slate-500 dark:text-slate-400">© 2024 Arco Max Odontologia. Todos os direitos reservados.</p>
+      </div>
+      <div class="flex justify-center gap-6">
+        <a class="text-slate-500 dark:text-slate-400 hover:text-[#3A98C7] transition-colors" href="#">Privacidade</a>
+        <a class="text-slate-500 dark:text-slate-400 hover:text-[#3A98C7] transition-colors" href="#">Termos de Uso</a>
+        <a class="text-slate-500 dark:text-slate-400 hover:text-[#3A98C7] transition-colors" href="#">FAQ</a>
+      </div>
+      <div class="flex justify-center md:justify-end gap-4">
+        <div class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-[#3A98C7] hover:opacity-70 cursor-pointer">
+          <span class="material-symbols-outlined">share</span>
+        </div>
+        <div class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-[#3A98C7] hover:opacity-70 cursor-pointer">
+          <span class="material-symbols-outlined">call</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
